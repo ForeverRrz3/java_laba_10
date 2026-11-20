@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Task6 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        StringBuilder text = new StringBuilder();
+        StringBuffer text = new StringBuffer();
 
         while (sc.hasNextLine()) {
             String line = sc.nextLine();
