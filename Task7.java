@@ -6,7 +6,7 @@ public class Task7 {
         String text = sc.nextLine();
 
         String[] words = text.replace(",", " , ").split("\\s+");
-        StringBuilder result = new StringBuilder();
+        StringBuffer result = new StringBuffer();
         int cost = 0;
         for (String word : words) {
             if (word.equals(",")) {
